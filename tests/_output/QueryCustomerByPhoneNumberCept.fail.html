@@ -1,7 +1,46 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /customers/add was not found on this server.</p>
-</body></html>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+    <link href="/assets/555f1ba6/css/bootstrap.css" rel="stylesheet">
+<link href="/assets/2d8f8f98/css/main.css" rel="stylesheet">    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="b053X3VIZXJdPARmEgJdRyQFQAcecCtGXTQ1Fhx.HEVaKjQKIn86Xw==">
+</head>
+<body>
+<div class="container">
+        <div class="authorization-indicator">
+                            <span>guest</span>                <a href="/registration">registration</a>                <a href="/site/login">login</a>                    </div>
+    <form id="add-customer-form" action="/customers/add" method="post">
+<input type="hidden" name="_csrf" value="b053X3VIZXJdPARmEgJdRyQFQAcecCtGXTQ1Fhx.HEVaKjQKIn86Xw=="><div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div><div class="form-group field-customerrecord-name required">
+<label class="control-label" for="customerrecord-name">Name</label>
+<input type="text" id="customerrecord-name" class="form-control" name="CustomerRecord[name]">
+
+<div class="help-block"></div>
+</div><div class="form-group field-customerrecord-birth_date">
+<label class="control-label" for="customerrecord-birth_date">Birth Date</label>
+<input type="text" id="customerrecord-birth_date" class="form-control" name="CustomerRecord[birth_date]">
+
+<div class="help-block"></div>
+</div><div class="form-group field-customerrecord-notes">
+<label class="control-label" for="customerrecord-notes">Notes</label>
+<input type="text" id="customerrecord-notes" class="form-control" name="CustomerRecord[notes]">
+
+<div class="help-block"></div>
+</div><div class="form-group field-phonerecord-number required">
+<label class="control-label" for="phonerecord-number">Number</label>
+<input type="text" id="phonerecord-number" class="form-control" name="PhoneRecord[number]">
+
+<div class="help-block"></div>
+</div><button type="submit" class="btn btn-primary">Submit</button></form>    <footer class="footer">Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+</div>
+<script src="/assets/1e63261c/jquery.js"></script>
+<script src="/assets/fb9bf690/yii.js"></script>
+<script src="/assets/fb9bf690/yii.validation.js"></script>
+<script src="/assets/fb9bf690/yii.activeForm.js"></script>
+<script src="/assets/2d8f8f98/js/main.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#add-customer-form').yiiActiveForm([{"id":"customerrecord-name","name":"name","container":".field-customerrecord-name","input":"#customerrecord-name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Name cannot be blank."});yii.validation.string(value, messages, {"message":"Name must be a string.","max":256,"tooLong":"Name should contain at most 256 characters.","skipOnEmpty":1});}},{"id":"customerrecord-birth_date","name":"birth_date","container":".field-customerrecord-birth_date","input":"#customerrecord-birth_date","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Birth Date must be a string.","skipOnEmpty":1});}},{"id":"phonerecord-number","name":"number","container":".field-phonerecord-number","input":"#phonerecord-number","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Number must be a string.","skipOnEmpty":1});yii.validation.required(value, messages, {"message":"Number cannot be blank."});}}], []);
+});</script></body>
+</html>
+
