@@ -1,46 +1,44 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title></title>
-    <link href="/assets/555f1ba6/css/bootstrap.css" rel="stylesheet">
-<link href="/assets/2d8f8f98/css/main.css" rel="stylesheet">    <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="b053X3VIZXJdPARmEgJdRyQFQAcecCtGXTQ1Fhx.HEVaKjQKIn86Xw==">
+<title>Object not found!</title>
+<link rev="made" href="mailto:admin@yii2.com" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
 </head>
+
 <body>
-<div class="container">
-        <div class="authorization-indicator">
-                            <span>guest</span>                <a href="/registration">registration</a>                <a href="/site/login">login</a>                    </div>
-    <form id="add-customer-form" action="/customers/add" method="post">
-<input type="hidden" name="_csrf" value="b053X3VIZXJdPARmEgJdRyQFQAcecCtGXTQ1Fhx.HEVaKjQKIn86Xw=="><div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div><div class="form-group field-customerrecord-name required">
-<label class="control-label" for="customerrecord-name">Name</label>
-<input type="text" id="customerrecord-name" class="form-control" name="CustomerRecord[name]">
+<h1>Object not found!</h1>
+<p>
 
-<div class="help-block"></div>
-</div><div class="form-group field-customerrecord-birth_date">
-<label class="control-label" for="customerrecord-birth_date">Birth Date</label>
-<input type="text" id="customerrecord-birth_date" class="form-control" name="CustomerRecord[birth_date]">
 
-<div class="help-block"></div>
-</div><div class="form-group field-customerrecord-notes">
-<label class="control-label" for="customerrecord-notes">Notes</label>
-<input type="text" id="customerrecord-notes" class="form-control" name="CustomerRecord[notes]">
+    The requested URL was not found on this server.
 
-<div class="help-block"></div>
-</div><div class="form-group field-phonerecord-number required">
-<label class="control-label" for="phonerecord-number">Number</label>
-<input type="text" id="phonerecord-number" class="form-control" name="PhoneRecord[number]">
+  
 
-<div class="help-block"></div>
-</div><button type="submit" class="btn btn-primary">Submit</button></form>    <footer class="footer">Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
-</div>
-<script src="/assets/1e63261c/jquery.js"></script>
-<script src="/assets/fb9bf690/yii.js"></script>
-<script src="/assets/fb9bf690/yii.validation.js"></script>
-<script src="/assets/fb9bf690/yii.activeForm.js"></script>
-<script src="/assets/2d8f8f98/js/main.js"></script>
-<script type="text/javascript">jQuery(document).ready(function () {
-jQuery('#add-customer-form').yiiActiveForm([{"id":"customerrecord-name","name":"name","container":".field-customerrecord-name","input":"#customerrecord-name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Name cannot be blank."});yii.validation.string(value, messages, {"message":"Name must be a string.","max":256,"tooLong":"Name should contain at most 256 characters.","skipOnEmpty":1});}},{"id":"customerrecord-birth_date","name":"birth_date","container":".field-customerrecord-birth_date","input":"#customerrecord-birth_date","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Birth Date must be a string.","skipOnEmpty":1});}},{"id":"phonerecord-number","name":"number","container":".field-phonerecord-number","input":"#phonerecord-number","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Number must be a string.","skipOnEmpty":1});yii.validation.required(value, messages, {"message":"Number cannot be blank."});}}], []);
-});</script></body>
+    If you entered the URL manually please check your
+    spelling and try again.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:admin@yii2.com">webmaster</a>.
+
+</p>
+
+<h2>Error 404</h2>
+<address>
+  <a href="/">yii2.com</a><br />
+  <span>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.5.28</span>
+</address>
+</body>
 </html>
 

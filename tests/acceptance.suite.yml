@@ -11,4 +11,4 @@ modules:
         - \Helper\Acceptance
     config:
         PhpBrowser:
-          url: 'http://crmapp'
+          url: 'http://yii2.com'

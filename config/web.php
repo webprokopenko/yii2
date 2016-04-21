@@ -7,5 +7,9 @@ return [
             'request'   =>  [
                     'cookieValidationKey'   =>  'secret key',
             ],
+            'urlManager'    =>[
+                    'enablePrettyUrl'   => true,
+                    'showScriptName'    => false,
+            ],
     ],
 ];
