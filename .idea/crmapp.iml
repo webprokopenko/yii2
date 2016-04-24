@@ -54,10 +54,10 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/composer.phar" />
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/composer.phar" />
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -65,7 +65,6 @@
       <library name="PHP">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bower/bootstrap" />
-          <root url="file://$MODULE_DIR$/vendor/bower/bower-asset" />
           <root url="file://$MODULE_DIR$/vendor/bower/jquery" />
           <root url="file://$MODULE_DIR$/vendor/bower/jquery.inputmask" />
           <root url="file://$MODULE_DIR$/vendor/bower/punycode" />
@@ -113,7 +112,6 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bower/bootstrap" />
-          <root url="file://$MODULE_DIR$/vendor/bower/bower-asset" />
           <root url="file://$MODULE_DIR$/vendor/bower/jquery" />
           <root url="file://$MODULE_DIR$/vendor/bower/jquery.inputmask" />
           <root url="file://$MODULE_DIR$/vendor/bower/punycode" />
